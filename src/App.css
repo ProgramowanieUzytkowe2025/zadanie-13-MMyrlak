@@ -1,0 +1,13 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.error-msg {
+  color: #d32f2f;
+  background: #ffcdd2;
+  padding: 10px;
+  border-radius: 4px;
+}

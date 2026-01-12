@@ -1,0 +1,14 @@
+.gold-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.price-value {
+  font-size: 3rem;
+  color: #d4af37;
+  margin: 1rem 0;
+}

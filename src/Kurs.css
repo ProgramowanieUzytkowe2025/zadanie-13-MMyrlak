@@ -1,0 +1,80 @@
+.tabela-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+
+.tabela-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.tabela-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #2c3e50;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.tabela-header select {
+  background-color: #f8f9fa;
+  border: 2px solid #34495e;
+  border-radius: 8px;
+  padding: 10px 35px 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #34495e;
+  cursor: pointer;
+}
+
+.table-container {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nbp-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.nbp-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #34495e;
+  color: white;
+  padding: 15px;
+  z-index: 1;
+  text-align: left;
+}
+
+.nbp-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.nbp-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.nbp-table-link {
+  text-decoration: none;
+  color: #3498db;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+  background-color: #f0f7fd;
+}
+
+.nbp-table-link:hover {
+  background-color: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
