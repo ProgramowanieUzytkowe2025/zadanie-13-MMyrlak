@@ -43,7 +43,6 @@ export const CenaZlota = () => {
       })
     }
     
-
     getGoldPrice();
     getHistoricalGoldPrice();
   }, []);
